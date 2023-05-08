@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AnimalsApp</string>
+    <string name="animals">Animals</string>
+    <string name="lion">Lion</string>
+    <string name="wolf">Wolf</string>
+    <string name="cheetah">Cheetah</string>
+    <string name="elephant">Elephant</string>
+    <string name="giraffe">Giraffe</string>
+    <string name="crocodile">Crocodile</string>
+    <string name="cat">Cat</string>
+    <string name="dog">Dog</string>
+    <string name="parrot">Parrot</string>
+
+</resources>
+
+
+
