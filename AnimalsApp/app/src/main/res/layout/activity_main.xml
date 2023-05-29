@@ -9,18 +9,18 @@
         android:id="@+id/animalImage"
         android:layout_width="match_parent"
         android:layout_height="460dp"
-        android:src="@drawable/animals"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY"
+        android:src="@drawable/animals"/>
 
 
-    <GridView
-        android:id="@+id/animalGridLayout"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/animalRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#3F51B5"
-        android:numColumns="3"
         android:horizontalSpacing="3dp"
-        android:verticalSpacing="6dp"
+        android:layout_margin="10dp"
+        android:verticalSpacing="2dp"
         android:backgroundTint="@color/white"
-        android:scrollbarAlwaysDrawHorizontalTrack="true"/>
+       />
 </LinearLayout>
